@@ -1,0 +1,13 @@
+.form {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#bord {
+  margin-top: 20px;
+  width: 400px;
+  height: 150px;
+  background-color: green;
+ 
+}

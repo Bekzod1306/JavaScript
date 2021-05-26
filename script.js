@@ -60,3 +60,27 @@
 // console.log(userInfo);
 // delete userInfo.name;
 // console.log(userInfo);
+
+let mass = [
+  (arr1 = {
+    age: 20,
+    name: "Bek",
+    read: true,
+  }),
+  (arr2 = {
+    age: 19,
+    name: "Asad",
+    read: true,
+  }),
+  (arr3 = {
+    age: 23,
+    name: "Jas",
+    read: false,
+  }),
+];
+
+for (let i = 0; i < mass.length; i++) {
+    if (mass[i].read === true) {
+      console.log(mass[i].name);
+    }
+  }
